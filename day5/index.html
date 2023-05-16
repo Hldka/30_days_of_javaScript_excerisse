@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+const  countries = [
+
+'Albania',
+
+'Bolivia',
+
+'Canada',
+
+'Denmark',
+
+'Ethiopia',
+
+'Finland',
+
+'Germany',
+
+'Hungary',
+
+'Ireland',
+
+'Japan',
+
+'Kenya'
+
+]
+
+  
+
+const  webTechs = [
+
+'HTML',
+
+'CSS',
+
+'JavaScript',
+
+'React',
+
+'Redux',
+
+'Node',
+
+'MongoDB'
+
+]
+//1boş bir dizi yaratın;
+const  webTechs2 = []
+//Eleman sayısı 5'ten fazla olan bir dizi yaratın.
+const  webTechs3 = ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node', 'MongoDB', 'HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node', 'MongoDB', 'HTML', 'CSS', 'JavaScript', 'React', 'Redux']
+// 3.Yarattığınız dizinin uzunluğunu bulun ( length ).
+ console.log(webTechs3.length)
+ //4.Dizinizdeki ilk elemanı, ortadaki elemanı ve sondaki elemanı bulun.
+ console.log(webTechs3[0])
+ console.log(webTechs3[webTechs3.length-1])
+ console.log(webTechs3[(webTechs3.length-1)/2])
+//5.mixedDataTypes adında bir dizi yaratın,dizinin içine farklı veri tiplerinde elemanlar koyun ve bu dizinin uzunluğunu bulun. Dizinin uzunluğu 5'ten büyük olmalıdır.
+const  mixedDataTypes = ['HTML', 'CSS', 'JavaScript', 'React', 'CSS', 'JavaScript']
+//6.ItCompanies adlı bir dizi değişkeni oluşturun ve Facebook, Google, Microsoft, Apple, IBM, Oracle ve Amazon'a başlangıç değerleri atayın.
+const  ItCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+//7console.log() kullanarak dizinizi yazdırın
+console.log(ItCompanies);
+//8.Dizinin içindeki şirketlerin sayısın yazdırın.
+console.log(ItCompanies.length)
+//9.Dizinin içindeki ilk, ortadaki ve son elemanı yazdırın.
+console.log(ItCompanies[0])
+console.log(ItCompanies[ItCompanies.length-1])
+console.log(ItCompanies[ItCompanies.length/2])
+
+// 10.Dizideki her şirketi yazdırın.
+console.log(ItCompanies)
+//11.Her bir şirketin adını tek tek büyük harfleri ile değişterin ( ör: facebook -> FACEBOOK) ve her birini yazdırın.
+console.log(ItCompanies.map((company) => company.toUpperCase()))
+//12.Diziyi bir cümle gibi yazdırın: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+console.log(ItCompanies.join())
+//13.itCompanies dizisinde belirli bir şirketin olup olmadığını kontrol edin. Varsa şirketi geri döndürün, aksi takdirde not found geri döndürün.
+console.log(ItCompanies.includes('Facebook'))
+//14.Birden fazla 'o' harfi içeren şirketleri filter metodunu kullanmadan filtreleyin.
+//15.Birden fazla 'o' harfi içeren şirketleri filter metodunu kullanmadan filtreleyin.
+console.log(ItCompanies.filter((company) => company.includes('o')))
+//16.sort() metodunu kullanarak diziyi sıralayın.
+console.log(ItCompanies.sort())
+//17.reverse() metodunu kullanarak diziyi tersine çevirin.
+console.log(ItCompanies.reverse())
+
+//18.Diziden ilk 3 şirketi dilimleyin ( Slice edin ).
+console.log(ItCompanies.slice(0,3))
+//19.Diziden son 3 şirketi dilimleyin ( Slice edin ).
+console.log(ItCompanies.slice(-3))
+//20.Ortadaki IT şirketini ya da şirketlerini diziden dilimleyin ( Slice edin ).
+console.log(ItCompanies.slice(ItCompanies.length/2,ItCompanies.length/2+3))
+//21. İlk IT şirketini diziden kaldırın.
+console.log(ItCompanies.splice(0,1))
+//22. Ortadaki IT şirketini ya da şirketlerini diziden kaldırın.
+console.log(ItCompanies.splice(ItCompanies.length/2,ItCompanies.length/2+3));
+//23 Sondaki IT şirketini diziden kaldırın.
+console.log(ItCompanies.splice(ItCompanies.length-1,1));
+// 24.Bütün IT şirketlerini kaldırın
+
+console.log(ItCompanies.splice(ItCompanies.length-1,0));
+
+
+const  ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+const ages1=ages.sort();
+console.log(ages1);
+console.log(ages1[0])
+console.log(ages1[ages1.length-1])
+console.log(ages1[ages1.length/2])
+
+    </script>
+</body>
+</html>

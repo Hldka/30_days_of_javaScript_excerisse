@@ -37,11 +37,15 @@ let dan = "jargonda"
 dan.indexOf('on')
 den.indexOf('on')
 const num = Math.floor(Math.random () * 111) // 0 ile 100 arasında rastgele sayı oluşturur
-console.log(num)
+
 const num1 = Math.floor(Math.random () * 45) // 50 ile 100 arasında rastgele sayı oluşturur
-console.log(num)
+
 const num3 = Math.floor(Math.random () * 11) // 0 ile 255 arasında rastgele sayı oluşturur
 
-console.log(num)
 //10,11,12 1,2,3
+let bir ="1"
+let sayi= [1,2,3,4,5]
+console.log(bir.repeat(5))
+console.log
 eval((5000*12)+10000+(15000*12))
+let cumle=""
